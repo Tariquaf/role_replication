@@ -28,8 +28,8 @@ A lightweight Frappe app that cleanly backports the **Role Replication** functio
 
 1. **Clone the app into your bench:**
    ```bash
-   cd ~/frappe-bench/apps
-   git clone https://github.com/Tariquaf/role_replication.git
+   cd ~/frappe-bench
+   bench get-app https://github.com/Tariquaf/role_replication.git
 
 2. **Install the app on your site:**
    ```bash
