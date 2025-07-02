@@ -39,7 +39,7 @@ A lightweight Frappe app that cleanly backports the **Role Replication** functio
 4. **Run the patch and apply migration:**
    ```bash
    bench update --patch
-   bench migrate --site mysite
+   bench --site mysite migrate
 
 ## 🧠 How It Works
 This app uses a simple but powerful after_migrate hook to apply the upstream role replication patch:
