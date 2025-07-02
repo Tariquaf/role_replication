@@ -242,3 +242,6 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+after_migrate = [
+    "role_replication.patches.apply_role_replication.apply_patch"
+]
